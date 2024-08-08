@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+   <button id="btn">Click me</button>
+   <script>
+    document.getElementsById('btn').addEventListener("click", function(){
+      const newText = document.createElement('p');
+      newText.innerText = 'Hello World!';
+      document.body.appendChild(newText);
+    });
+</body>
+</html>
